@@ -170,8 +170,8 @@
      */
     --color-text       : var(--color-1);
     --color-text-dark  : var(--color-1-dark);
-    --color-text-light : var(--color-1-light);
-    --color-placeholder: var(--color-3);
+    --color-text-light : var(--color-white);
+    --color-placeholder: var(--color-2);
 
     /* buttons
      */
@@ -1677,6 +1677,7 @@ h2, .h2 {
 h3, .h3 {
     font-size: var(--text-xl);
     line-height: var(--vspace-1_25);
+    color: white;
 }
 
 h4, .h4 {
